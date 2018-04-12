@@ -1,0 +1,15 @@
+body {
+	background-color: #FFFFEE;
+}
+
+h1, p, ul, li {
+	font-family: Arial, sans-serif;
+	color: #000000;	
+	font-size: 24px
+}
+
+p, ul, li {
+	font-size: 12px;
+}
+
+#slogan {color: #35327F;}
