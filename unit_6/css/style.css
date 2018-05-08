@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:600');
+@import url('https://fonts.googleapis.com/css?family=Nunito:700');
+
+body {
+background-color: #B2B19A;
+color: #000000;
+font-family: Arial, sans-serif;
+}
+
+h1 {
+font-family: 'Nunito', sans-serif;
+font-size: 24px;
+text-transform: uppercase
+}
+
+h2 {
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+p, ul, li {
+font-size: 14px;
+font-family: 'Nunito', serif;
+}
+
+a {
+color: #000000;
+font-family: 'Nunito', Arial, sans-serif;
+font-size: 14px;
+}
+
+header {
+background-color : #FFFDF6;
+border: black solid 1px;
+padding: 20px;
+}
+
+article {
+background-color : #FFFEF6;
+border: black solid 1px;
+padding: 20px;
+}
+
+footer {
+background-color: #FFFEF6;
+border: black solid 1px;
+padding: 20px;
+}
+
+div {
+background-color: #E5FFFE;
+border: black solid 1px;
+padding: 20px;
+}
+
+section {
+background-color : #E5FFFE;
+border: black solid 1px;
+padding: 20px;
+}
+
+figcaption {
+font-family: 'Nunito', sans-serif;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+#slogan {
+color: #35327F;
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+#creativecommons {
+text-align : center;
+font-family : 'Nunito', sans-serif;}
+
+#creativecommons {
+margin : 0 auto;
+display : block;
+}
+
+#creativecommonslink {
+margin : 0 auto;
+display : block;
+font-family : 'Nunito', sans-serif;}
+
+#bio {
+background-color: #FFFDF6;
+border: 1px black solid;
+padding: 20px;
+}
+
+#work {
+background-color : #B2AE9A;
+border: black solid 1px;
+padding: 20px;
+}
+
+#left  {
+    background-color: #FFFDF6;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#center  {
+    background-color: #FFFDF6;
+    border: 1px black solid;
+    padding: 10px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #FFFDF6;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 30%;
+}
+
+.wrapper {
+background-color : #B2AE9A;
+border: black solid 1px;
+padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
