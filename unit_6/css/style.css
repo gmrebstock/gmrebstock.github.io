@@ -32,13 +32,13 @@ font-size: 14px;
 
 header {
 background-color : #FFFDF6;
-border: black solid 1px;
+/*border: black solid 1px;*/
 padding: 20px;
 }
 
 article {
 background-color : #FFFEF6;
-border: black solid 1px;
+/*border: black solid 1px;*/
 padding: 20px;
 }
 
@@ -50,13 +50,13 @@ padding: 20px;
 
 div {
 background-color: #E5FFFE;
-border: black solid 1px;
+/*border: black solid 1px;*/
 padding: 20px;
 }
 
 section {
 background-color : #E5FFFE;
-border: black solid 1px;
+/*border: black solid 1px;*/
 padding: 20px;
 }
 
@@ -90,7 +90,7 @@ font-family : 'Nunito', sans-serif;}
 
 #bio {
 background-color: #FFFDF6;
-border: 1px black solid;
+/*border: 1px black solid;*/
 padding: 20px;
 }
 
@@ -98,36 +98,47 @@ padding: 20px;
 background-color : #B2AE9A;
 border: black solid 1px;
 padding: 20px;
+text-align: center;
+}
+
+.flex-cont {
+	display:flex;
+	justify-content: space-around;
+	padding:0;
+	background-color: transparent;
 }
 
 #left  {
     background-color: #FFFDF6;
-    border: 1px black solid;
+    /*border: 1px black solid;*/
     padding: 20px;
-    float: left;
-    width: 30%;
+   /* float: left;*/
+    width: 28%;
+    height: auto;
 }
 
 #center  {
     background-color: #FFFDF6;
-    border: 1px black solid;
-    padding: 10px;
-    float: left;
-    width: 30%;
+    /*border: 1px black solid;*/
+    padding: 20px;
+  /*  float: left;*/
+    width: 28%;
+    height: auto;
 }
 
 #right {
     background-color: #FFFDF6;
-    border: 1px black solid;
+    /*border: 1px black solid;*/
     padding: 20px;
-    float: right;
-    width: 30%;
+ /*   float: right;*/
+    width: 28%;
+    height: auto;
 }
 
 .wrapper {
-background-color : #B2AE9A;
-border: black solid 1px;
-padding: 20px;
+	background-color : #B2AE9A;
+	border: black solid 1px;
+	padding: 20px;
 }
 
 .clearfix:after {
@@ -138,3 +149,49 @@ padding: 20px;
     clear: both;
     height: 0;
 }
+
+ .colorchange {
+      
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+    }
+
+@-webkit-keyframes colorchange {
+     /*black*/
+     0% {
+        
+        color: #000;
+      }
+      
+     /*red*/
+     20% {
+        
+        color: #4F0000;
+      }
+      
+     /*blue-gray*/
+     40% {
+        
+        color: #4A4E5B;
+      }
+      
+     /*mustard*/
+     60% {
+        
+        color: #7C5D00;
+      }
+      
+     /*dark red*/
+     80% {
+    
+        color: #260000;
+      }
+
+     /*black*/
+    100% {
+
+        color: #000;
+      }
+      }
