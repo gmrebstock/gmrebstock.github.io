@@ -216,7 +216,8 @@ img {
 
   .pixeltitle {
     font-family: 'Nunito', s-serif;
-    font-size: 1em;
+    font-size: .75em;
+    font-weight: bold;
     text-transform: uppercase;
     padding-top: 1em;
     padding-bottom: .5em;
